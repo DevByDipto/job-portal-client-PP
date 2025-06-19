@@ -18,8 +18,8 @@ console.log(applications);
         <th>
           NO
         </th>
-        <th>Name</th>
-        <th>Job</th>
+        <th>job title</th>
+        <th>company name</th>
         <th>Favorite Color</th>
         <th></th>
       </tr>
@@ -32,16 +32,8 @@ console.log(applications);
      
      
     </tbody>
-    {/* foot */}
-    <tfoot>
-      <tr>
-        <th></th>
-        <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
-        <th></th>
-      </tr>
-    </tfoot>
+   
+    
   </table>
 </div>
 
