@@ -3,11 +3,12 @@ import ApplicationStats from './ApplicationStats';
 import ApplicationList from './ApplicationList';
 import useAuth from '../../Hooks/useAuth';
 import { myApplicationsPromise } from '../../api/applicstionsApi';
-// import { myApplicationsPromise } from '../../api/applicstionsApi';
 
 const MyApplications = () => {
 
     const { user } = useAuth();
+    
+    
     
 if(!user){
     return <span className="loading loading-bars loading-xl"></span>
