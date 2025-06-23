@@ -4,7 +4,7 @@ import JobApplicationRow from './JobApplicationRow';
 
 const ApplicationList = ({ myApplicationsPromise }) => {
 const applications = use(myApplicationsPromise)
-console.log(applications);
+// console.log(applications);
 
     return (
         <div>
